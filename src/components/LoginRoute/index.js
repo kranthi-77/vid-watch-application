@@ -106,7 +106,7 @@ class LoginRoute extends Component {
                   type="text"
                   value={username}
                   id="usernameInput"
-                  placeholder="Username"
+                  placeholder="rahul"
                   onChange={this.changeUsername}
                   theme={lightTheme}
                 />
@@ -117,7 +117,7 @@ class LoginRoute extends Component {
                 <InputField
                   type={passwordInputType}
                   id="passwordInput"
-                  placeholder="Password"
+                  placeholder="rahul@2021"
                   onChange={this.changePassword}
                   value={password}
                   theme={lightTheme}
